@@ -7,10 +7,9 @@
     <meta name="description" content="Este sitio web ed de aoquilar equipos de computo"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      #copi{
+      #copy{
         initial-letter-align: top;
       }
-      
     </style>
     <title>Desarrollo MFE</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -26,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="Index.html">INICIO <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Alquiler.html">Alquiler</a>
@@ -47,7 +46,7 @@
                 <a class="dropdown-item" href="#">Reportar problema</a>
               </div>
             </li>
-           
+            
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -55,50 +54,66 @@
           </form>
         </div>
       </nav>
-<div class="container">
-    
-    <h3 class="text-center">Formulario_Registro</h3>
-    <form>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-4">
-        <p>Correo Electronico:<input type="text" class="container-fluid" name="Correo Electronico" size="40"></p>
-            </div>
-            <div class="col-md-4">
-        <p>Password:<input type="Password"class="container-fluid" name="Correo Electronico" size="40"></p>
-            </div>
-            <div class="col-md-4">
-        <p>Nombre:<input type="text"class="container-fluid" name="Nombre" size="40"></p>
-        </div>
-            </div>
-            <div class="row">
-        <div class="col">
-        <p>Apellido Paterno:<input type="text"class="container-fluid" name="Apellido Paterno" size="40"></p>
-        </div>
-        <div class="col">
-        <p>Apellido Materno:<input type="text" class="container-fluid"name="Apellido Materno" size="40"></p>
-        </div>
-        <div class="col">
-        <p>Edad:<input type="number"class="container-fluid" name="Edad" min="1"></p>
-        </div>
-        </div>
-        <p>Fecha de registro:<input type="date" class="btn btn-info" name="Registro" min="2020"></p>
-        <p>Sexo:
-            <input type="radio" name="hm" value="h">Hombre
-            <input type="radio" name="hm" value="m">Mujer
-        </p>
-        <div class="row">
-            <div class="col">
-        <input type="submit" class="btn btn-primary btn btn-primary btn-lg btn-block" value="Enviar">
-        </div>
-        <div class="col">
-        <input type="submit" class="btn btn-primary btn btn-primary btn-lg btn-block" value="Borrar">
-        </div>
-        </div>
-    </div>
-    </form>
-</div>
-<center><img src="logo.jpg" class="Centro"></img></center>
+     
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr><th colspan="11">Tabla Registros</th></tr>
+              <tr>
+                <th scope="col">Id_Registro</th>
+                <th scope="col">Id_Alquiler</th>
+                <th scope="col">Correo</th>
+                <th scope="col">Password</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido_Paterno</th>
+                <th scope="col">Apellido_Marerno</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Localidad</th>
+                <th scope="col">Fecha_Registro</th>
+                <th scope="col">Opciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                  <th>1</th>
+                  <th>jemineb242@qlevjh.com</th>
+                  <th>qwertyuiop</th>
+                  <th>Jose</th>
+                  <th>Perez</th>
+                  <th>Lopez</th>
+                  <th>19</th>
+                  <th>Xonacatlan</th>
+                  <th>2020-06-27</th>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <th>2</th>
+                <th>hacay41513@rbiwc.com</th>
+                <th>poiuytrewq</th>
+                <th>Juan</th>
+                <th>Alva</th>
+                <th>Cruz</th>
+                <th>17</th>
+                <th>Zolotepec</th>
+                <th>2020-05-27</th>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <th>3</th>
+                <th>tegoxi4338@unknmail.com</th>
+                <th>mnbvcxz</th>
+                <th>Diana</th>
+                <th>Legorreta</th>
+                <th>Feliz</th>
+                <th>19</th>
+                <th>Toluca</th>
+                <th>2020-06-20</th> 
+               
+              </tr>
+            </tbody>
+          </table>
+      
+<center><img src="logo.jpg"></img></center>
 <div class="copy">
   <!-- Footer -->
 <footer class="page-footer bg-secondary font-small blue pt-4">
