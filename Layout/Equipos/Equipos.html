@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!--<meta charset="UTF-8">-->
-    <body background="FOND.jpg"></body>
+    <body background="C:\Users\ferch\Integradora\Assets/FOND.jpg"></body>
     <meta name="author" content="Emanuel Vallejo Gil"/>
     <meta name="description" content="Este sitio web ed de aoquilar equipos de computo"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,63 +10,74 @@
       #copy{
         initial-letter-align: top;
       }
+      #copi{
+        initial-letter-align: top;
+      }
+      
     </style>
     <title>Desarrollo MFE</title>
+    <script src="https://kit.fontawesome.com/5754c2c284.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src="Logo.jpg" width="30" height="30" alt="" loading="lazy">
-        <a class="navbar-brand" href="#">FAST ALQUILER</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Alquiler.html">Alquiler</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Equipos.html">Equipos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Registro.html">Registros</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                MAS OPCIONES
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ayuda</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Reportar problema</a>
-              </div>
-            </li>
-            
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="C:\Users\ferch\Integradora\Assets/Logo.jpg" width="30" height="30" alt="" loading="lazy">
+      <a class="navbar-brand" href="#">FAST ALQUILER</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="C:\Users\ferch\Integradora\Layout/Index.html">INICIO <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="C:\Users\ferch\Integradora\Layout/Alquiler/Alquiler.html">Alquiler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="C:\Users\ferch\Integradora\Layout\Equipos/Equipos.html">Equipos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="C:\Users\ferch\Integradora\Layout\Registros/Registro.html">Registros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              MAS OPCIONES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Ayuda</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Reportar problema</a>
+            </div>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
 <div class="container">
-   
-    <h3 class="text-center">Formulario_Equipo</h3>
-    <form>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-6">
-        <p>Nombre:<input type="text" class="container-fluid" name="nombre" size="40"></p>
-            </div>
-            <div class="col-md-6">
-        <p>Precio:<input type="Password"class="container-fluid" name="Precio" size="40"></p>
-            </div>
-            </div>
+  <form class="alrededor">
+      <div class="form-group">
+          <h1 class="text-center">Equipos</h1>
+          <div class="row">
+              <div class="col-md-3 col-lg-3">
+              <p>Numero de Equipo: 
+                  <input type="number" name="numero_equipo" size="50" class="form-control"></p>
+              </div>
+              <div class="col-md-3 col-lg-3">
+              <p>Nombre de Equipo: 
+                  <input type="text" name="Nombre_Equipo"  class="form-control"></p>
+              </div>
+              <div class="col-md-3 col-lg-3">
+              <p>Precio del Equipo de Rente: 
+                  <input type="number" name="Precio_Equipo" maxlength="50" class="form-control"></p>
+              </div>
+            
+          </div>   
         <div class="row">
             <div class="col">
         <input type="submit" class="btn btn-primary btn btn-primary btn-lg btn-block" value="Enviar">
@@ -78,7 +89,7 @@
     </div>
     </form>
 </div>
-<center><img src="logo.jpg"></img></center>
+<center><img src="C:\Users\ferch\Integradora\Assets/logo.jpg"></img></center>
 <div class="copy">
   <!-- Footer -->
 <footer class="page-footer bg-secondary font-small blue pt-4">
