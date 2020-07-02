@@ -17,47 +17,54 @@
         }
     </style>
     <title>Desarrollo MFE</title>
-</head>
+   <script src="https://kit.fontawesome.com/5754c2c284.js" crossorigin="anonymous"></script>
+</head> 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src="Logo.jpg" width="30" height="30" alt="" loading="lazy">
-        <a class="navbar-brand" href="#">FAST ALQUILER</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="Index.html">INICIO <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Alquiler.html">Alquiler</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Equipos.html">Equipos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Registro.html">Registros</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                MAS OPCIONES
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ayuda</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Reportar problema</a>
-              </div>
-            </li>
-            
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Desarrollo MFE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/Layout/Index.html"><i class="fas fa-home">Home</i> <span class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Alquiler
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Layout/Alquiler/Tabla_Alquiler.html"><i class="far fa-eye"> Ver Alquiler</i></a>
+            <a class="dropdown-item" href="#">Detalles</a>
+            <a class="dropdown-item" href="/Layout/Alquiler/Alquiler.html"><i class="fas fa-file"> Nuevo Alquiler</i></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Registro
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Layout/Registros/Tabla_Registros.html"><i class="far fa-eye"> Ver Registro</i></a>
+            <a class="dropdown-item" href="#">Detalles</a>
+            <a class="dropdown-item" href="/Layout/Registros/Registro.html"><i class="fas fa-file"> Nuevo Registro</i></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Equipos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Layout/Equipos/Tabla_Equipos.html"><i class="far fa-eye"> Ver Equipos</i></a>
+            <a class="dropdown-item" href="#">Detalles</a>
+            <a class="dropdown-item" href="/Layout/Equipos/Equipos.html"><i class="fas fa-file"> Nuevo Equipos</i></a>
+          </div>
+        </li>
+      </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control" type="search" aria-label="Search">
+        <button class="btn btn-outlone-success my-2 mysm-o" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
       <h1><b><marquee>RESUMEN</marquee></b></h1>
       <p>
         MFE es una empresa que se dedica al préstamo de equipos de cómputo para

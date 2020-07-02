@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--<meta charset="UTF-8">-->
+    <body bgecolor=></body>
     <body background="FOND.jpg"></body>
-    <meta name="author" content="Emanuel Vallejo Gil"/>
-    <meta name="description" content="Este sitio web ed de aoquilar equipos de computo"/> 
+    <meta name=”author” content="Fernando Esteban LEgorreta FElix">
+    <meta name="description" content="Sitio web para el alquiler de equipos de computo">
+    <meta name="keywords" content="equipo,alquiler,computo,web" />
+    <meta name="revised" content="08/06/2020" />
+    <META name="copyright" content="&copy; 2020 Desarrollo MFE.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
     <style>
-      #copy{
-        initial-letter-align: top;
-      }
+        #copy{
+          initial-letter-align: top;
+        }
     </style>
     <title>Desarrollo MFE</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
+   <script src="https://kit.fontawesome.com/5754c2c284.js" crossorigin="anonymous"></script>
+</head> 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img src="Logo.jpg" width="30" height="30" alt="" loading="lazy">
-        <a class="navbar-brand" href="#">FAST ALQUILER</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Alquiler.html">Alquiler</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Equipos.html">Equipos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Registro.html">Registros</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                MAS OPCIONES
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ayuda</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Reportar problema</a>
-              </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Desarrollo MFE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="/Layout/Index.html"><i class="fas fa-home">Home</i> <span class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Alquiler
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Layout/Alquiler/Tabla_Alquiler.html"><i class="far fa-eye"> Ver Alquiler</i></a>
+            <a class="dropdown-item" href="#">Detalles</a>
+            <a class="dropdown-item" href="/Layout/Alquiler/Alquiler.html"><i class="fas fa-file"> Nuevo Alquiler</i></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Registro
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Layout/Registros/Tabla_Registros.html"><i class="far fa-eye"> Ver Registro</i></a>
+            <a class="dropdown-item" href="#">Detalles</a>
+            <a class="dropdown-item" href="/Layout/Registros/Registro.html"><i class="fas fa-file"> Nuevo Registro</i></a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Equipos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/Layout/Equipos/Tabla_Equipos.html"><i class="far fa-eye"> Ver Equipos</i></a>
+            <a class="dropdown-item" href="#">Detalles</a>
+            <a class="dropdown-item" href="/Layout/Equipos/Equipos.html"><i class="fas fa-file"> Nuevo Equipos</i></a>
+          </div>
+        </li>
+      </div>
             </li>
             
           </ul>
@@ -84,6 +98,11 @@
                   <th>19</th>
                   <th>Xonacatlan</th>
                   <th>2020-06-27</th>
+                  <th>
+                    <button><i class="fas fa-user-minus"></i></button>
+                    <button><i class="fas fa-binoculars"></i></button>
+                    <button><i class="fas fa-edit"></i></button>
+                  </th>
               </tr>
               <tr>
                 <th scope="row">2</th>
@@ -96,6 +115,11 @@
                 <th>17</th>
                 <th>Zolotepec</th>
                 <th>2020-05-27</th>
+                <th>
+                  <button><i class="fas fa-user-minus"></i></button>
+                  <button><i class="fas fa-binoculars"></i></button>
+                  <button><i class="fas fa-edit"></i></button>
+                </th>
               </tr>
               <tr>
                 <th scope="row">3</th>
@@ -108,7 +132,11 @@
                 <th>19</th>
                 <th>Toluca</th>
                 <th>2020-06-20</th> 
-               
+                <th>
+                  <button><i class="fas fa-user-minus"></i></button>
+                  <button><i class="fas fa-binoculars"></i></button>
+                  <button><i class="fas fa-edit"></i></button>
+                </th>
               </tr>
             </tbody>
           </table>
